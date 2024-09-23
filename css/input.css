@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .navlink_style {
+        @apply block py-2 px-3 font-montserrat text-font_primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0
+      }
+      .custom_buttom_one {
+        @apply bg-primary font-poppins px-8 py-2 text-white capitalize text-center rounded-md hover:bg-primary/80
+    }
+    /* enterprise section style */
+    .enterprise_div {
+        @apply bg-white sm:rounded-lg rounded-xl sm:shadow-lg shadow-sm shadow-font_secondery  sm:px-10 px-4 sm:py-[50px] py-[25px]
+    }
+    /* footer section list style */
+    .footer_list {
+        @apply font-poppins font-normal text-lg text-font_secondery py-2
+    }
+}
